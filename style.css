@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&family=Ubuntu&display=swap');
+   *{
+    	padding: 0;
+    	margin: 0;
+    	font-family: 'Poppins', sans-serif;
+
+    }
+body{
+
+
+   
+
+
+}
+.login{
+	height: 99vh;
+	background: url(image/welcome.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: contain;
+	background-position:  bottom left;
+
+
+}
+.signin-text{
+    display: flex;
+    justify-content: center;
+    color: #1094f4;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+}
+form{
+    width: 420px;
+    margin-top:  60px;
+}
+form .form-group .inp{
+
+    padding: 10px 10px;
+     
+}
+
+    .font-weight-bold btn btn-primary{
+
+    	background: #1094f4;
+    }
+
+    .icon{
+    	position: absolute;
+    }
+    .btn{
+         /*width: 300px !important;*/
+    }

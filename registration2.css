@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&family=Ubuntu&display=swap');
+   *{
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+
+    }
+body{
+
+
+   
+
+
+}
+.reg{
+    height: 99vh;
+    background: url(image/new.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+    background-position:  bottom left;
+
+
+}
+.signin-text{
+    display: flex;
+    justify-content: center;
+    color: #1094f4;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+}
+.card{
+    margin-top: 20px;
+    width: 420px;
+     /*margin-bottom: 30px;*/
+}
+.header_button{
+    text-align: right;
+    margin-bottom: 25px;
+}
+form{
+    /*width: 420px;*/
+    /*margin-top:  60px;*/
+}
+form .form-group .inp{
+
+    padding: 10px 10px;
+     
+}
+
+    .font-weight-bold btn btn-primary{
+
+        background: #1094f4;
+    }
+
+    .icon{
+        position: absolute;
+    }
+    .btn{
+         /*width: 300px !important;*/
+    }
+
+    .altext{
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    
+    }
+    .altext p{
+        margin-bottom: 0;
+    }
+
+.header_button{
+    margin-bottom: 25px;
+    border-radius: 6px;
+    width: 105px;
+    background-color: #4E1DFF; /* color*/
+    display: block;
+    padding: 1px 1px 4px 1px;
+    text-align: right;
+    margin: 15px 273px;
+}
+.button-1{
+  background-color: #fff;
+  border: 1px solid #4E1DFF; /* color*/
+  color: #000;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  border-radius: 6px;
+  font-size: 10px;
+}
+.button-1:hover{
+    text-decoration: none;
+    background-color: #4E1DFF; /* color*/
+    color: white;
+    transition: 0.4s;
+}
+.button-2{
+    background-color: #4E1DFF; /* color*/
+  border: 1px solid #4E1DFF; /* color*/
+  color: #fff;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  border-radius: 6px;
+  font-size: 10px;
+}
+.button-2:hover{
+    text-decoration: none;
+    background-color: #fff;
+    color: #4E1DFF; /* color*/
+    transition: 0.4s;
+}
+
+/* ======== Nav Bar Start ======== */
+.cg-header{
+  height: 100px;
+  padding: 0 20px;
+  background-color: #131432;
+  
+}
+.logo img{
+  /*margin-top: 30px;*/
+  width: 100px;
+  float: left;
+  object-fit: cover;
+}
+.cg-menu{
+  float: right;
+  line-height: 100px;
+}
+.cg-menu a{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0 10px;
+
+}
+.show-menu-btn, .hide-menu-btn{
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  color: #5E888C;
+}
+.show-menu-btn{
+  float: right;
+}
+.show-menu-btn i{
+  line-height: 100px;
+}
+.cg-menu a:hover{
+  color: #5E888C;
+  transition: 0.7s;
+}
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+  color: #5E888C;
+}
+#chk{
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+}
